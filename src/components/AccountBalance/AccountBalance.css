@@ -1,0 +1,101 @@
+.AccountBalance {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    border-bottom: .1rem;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    font-weight: bold;
+    background-color: rgb(10, 10, 10);
+    align-items: flex-start;
+    display: flex;
+    font-family: Verdana;
+    font-size: 13px;
+}
+
+.BalanceButton {
+    margin-right: 1rem;
+    margin-left: 2rem;
+    font-weight: bold;
+    background-color: #4b4b4b;
+    color: white;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: .3rem;
+    font-size: 11px;
+    padding: .5rem;
+    cursor: pointer;
+}
+
+.BalanceButton:hover {
+    margin-right: 1rem;
+    font-weight: bold;
+    background-color: #479ade;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    color: white;
+    border-radius: .3rem;
+    font-size: 11px;
+    padding: .5rem;
+    cursor: pointer;
+}
+
+.AddToBalanceButton {
+    margin-right: 1rem;
+    font-weight: bold;
+    background-color: #4b4b4b;
+    color: white;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: .3rem;
+    font-size: 11px;
+    padding: .5rem;
+    cursor: pointer;
+}
+
+.AddToBalanceButton:hover {
+    margin-right: 1rem;
+    font-weight: bold;
+    background-color: #479ade;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    color: white;
+    border-radius: .3rem;
+    font-size: 11px;
+    padding: .5rem;
+    cursor: pointer;
+}
+
+.User-Logo {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    padding: .25rem;
+    background-color: white;
+    width: 1.5rem;
+    border-radius: .3rem;
+    border-style: double;
+    border-color: #61dafb;
+    cursor: pointer;
+}
+
+.User-Logo:hover {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    padding: .25rem;
+    background-color: #a2ebff;
+    width: 1.5rem;
+    border-radius: .3rem;
+    border-style: double;
+    border-color: white;
+    cursor: pointer;
+}
+
+.BalanceColor {
+    color:#ffffff;
+    padding: .3rem;
+}
+

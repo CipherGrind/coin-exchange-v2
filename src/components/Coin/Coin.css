@@ -1,0 +1,145 @@
+.BuyIcon {
+    padding: .25rem;
+    margin: .3rem;
+    background-color: white;
+    width: 1rem;
+    border-radius: .3rem;
+    border-style: double;
+    border-color: #61dafb;
+    cursor: pointer;
+} 
+ 
+.BuyIcon:hover {
+    padding: .25rem;
+    margin: .3rem;
+    background-color: #a2ebff;
+    width: 1rem;
+    border-radius: .3rem;
+    border-style: double;
+    border-color: white;
+    cursor: pointer;
+}
+
+.BuyIcon:disabled{
+    pointer-events: none;
+}
+
+.SellIcon {
+    padding: .25rem;
+    margin: .3rem;
+    background-color: white;
+    width: 1rem;
+    border-radius: .3rem;
+    border-style: double;
+    border-color: #61dafb;
+    cursor: pointer;
+}
+
+.SellIcon:hover {
+    padding: .25rem;
+    margin: .3rem;
+    background-color: #a2ebff;
+    width: 1rem;
+    border-radius: .3rem;
+    border-style: double;
+    border-color: white;
+    cursor: pointer;
+}
+
+.Disable{
+    visibility: hidden;
+}
+
+.RefreshIcon {
+    padding: .25rem;
+    margin: .3rem;
+    background-color: white;
+    width: 1rem;
+    border-radius: .3rem;
+    border-style: double;
+    border-color: #61dafb;
+    cursor: pointer;
+}
+
+.RefreshIcon:hover {
+    padding: .25rem;
+    margin: .3rem;
+    background-color: #a2ebff;
+    width: 1rem;
+    border-radius: .3rem;
+    border-style: double;
+    border-color: white;
+    cursor: pointer;
+}
+
+.InfoIcon {
+    padding: .25rem;
+    margin: .3rem;
+    background-color: white;
+    width: 1rem;
+    border-radius: .3rem;
+    border-style: double;
+    border-color: #61dafb;
+    cursor: pointer;
+}
+
+.InfoIcon:hover {
+    padding: .25rem;
+    margin: .3rem;
+    background-color: #a2ebff;
+    width: 1rem;
+    border-radius: .3rem;
+    border-style: double;
+    border-color: white;
+    cursor: pointer;
+}
+
+
+.popup-content {
+    margin: auto;
+    background: #282c34;
+    color: white;
+    border-color: white;
+    border-style: double;
+    width: 50%;
+    padding: 15px;
+  }
+  .popup-arrow {
+    color: rgb(255, 255, 255);
+  }
+  [role='tooltip'].popup-content {
+    width: 275px;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px;
+  }
+  
+  .popup-overlay {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  [data-popup='tooltip'].popup-overlay {
+    background: transparent;
+  }
+
+
+
+b {
+    color: #a2ebff;
+}
+
+.Cap {
+    text-transform: uppercase;
+}
+
+.Cap2 {
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.Green {
+    color: rgb(0, 203, 132);
+}
+
+.Red {
+    color: rgb(255, 78, 101);
+}
+
